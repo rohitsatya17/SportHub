@@ -5,3 +5,5 @@ This is a chrome extension to show live sport updates using rich notifications. 
 
 Visit 
 https://chrome.google.com/webstore/detail/sporthub/lkkeoaoijenggefjnnfgejgngahgkein?utm_source=chrome-ntp-icon
+
+Hope you love it.
