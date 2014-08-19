@@ -1,0 +1,25 @@
+<div class="settings">
+	<h4 class="text-center">Filter notifications</h4>
+	<div id="prim-sel" class="text-center">
+		<input id="setting-all" type="radio" name="primary" value="all" >All
+		<input id="setting-intl" type="radio" name="primary" value="international">International
+	</div>
+	<div id="international-teams">
+		<span>Select teams to show notifications for (all the teams below are selected by default)</span><br>
+		<div class="list">
+		</div>
+	</div>
+	<div class="text-center">
+		<div>
+			Add other teams <input id="other-teams" type="text" placeholder="Ireland, India A, Sussex, Mumbai Indians">
+		</div><br>
+		<div>
+			Show only other teams<input name="only-others" value="only-others" type="checkbox">
+		</div><br>
+		<div>
+			Notification interval(min) <input id="notifInterval" type="number" min="1" value="15">
+		</div>
+	</div>
+	<button id="save-settings">Save</button> <br>
+	<p>If you clear app related data from the browser, just select and save settings.</p>
+</div>
