@@ -1,0 +1,109 @@
+html{
+	width: 20em;
+	height: auto;
+	//height: 100%;	
+}
+
+//Body
+
+body{
+	font-family: Times New Roman;
+	letter-spacing: 0.05em;
+	height: 100%;
+}
+
+a:hover, a:focus{
+	text-decoration: none;
+}
+
+a:active{
+
+}
+
+
+hr{
+	border-color: #d7d7d7;
+	margin: 0.31em 0 0.625em;
+}
+
+p, ul, ol{
+	margin-bottom: 0em;
+}
+
+.bold{
+	font-weight: 700;	
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.capitalize{
+	text-transforn: capitalize !important;
+}
+
+.text-center{
+	text-align: center;
+}
+
+input[type=text], input[type=number]{
+	border-radius: 3px;
+}
+
+button{
+
+	width: 8em;
+	height: 3em;
+	border-radius: 5px;
+	border: 1px solid white;
+	font-size: 1em;
+	margin: 0.5em;
+	outline: none;
+
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.mask{
+	opacity: 0.3;
+}
+
+header{
+
+	font-variant: small-caps;
+	color: rgb(7, 111, 180);
+	margin-bottom: 0.5em;
+	border-bottom: 1px solid;
+	padding-bottom: 0.2em;
+
+}
+
+header:hover{
+
+	cursor: pointer;
+
+}
+
+footer{
+	margin: 1em;
+	font-size: 0.7em;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+//Page wrap, for sticky footer
+
+.page-wrap{
+	min-height: 100%;
+	margin-bottom: -15em;
+}
+
+.page-wrap:after{
+	content: "";
+  	display: block;
+  	height: 15em;
+}
