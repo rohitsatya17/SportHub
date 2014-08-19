@@ -1,0 +1,91 @@
+.main-page .settings-btn, .main-page .view-score-btn{
+
+	background-color: rgb(0, 184, 255);
+
+}
+
+.main-page .settings-btn:hover, .main-page .view-score-btn:hover{
+
+	background-color: rgb(0, 163, 255);
+
+}
+
+.main-page button#appState{
+
+	background-color: red;
+
+}
+
+.main-page button#appState:hover{
+
+	background-color: rgb(235, 24, 24);
+
+}
+
+.main-page #about{
+
+	text-decoration: none;
+	font-size: 0.85em;
+	position: relative;
+	top: 0.5em;
+	color: grey;
+
+}
+
+.main-page #about:hover{
+
+	color: black;
+
+}
+
+.main-page #about:hover{
+
+	cursor: pointer;
+
+}
+.settings #international-teams, .settings #prim-sel{
+
+	margin: 1em;
+
+}
+
+.settings #save-settings{
+
+	position: relative;
+	left: 5em;
+	background-color: rgb(64, 182, 64);
+
+}
+
+.settings #save-settings:hover{
+
+	background-color: rgb(72, 173, 72);;
+
+}
+
+.settings p{
+
+	font-size: 0.75em;
+	color: grey;
+	margin: 1em;
+
+}
+
+.settings #notifInterval{
+
+	width: 3em;
+
+}
+
+.about-page h4{
+
+	margin-top: 0.4em;
+	margin-bottom: 0.5em;
+
+}
+
+.about-page p{
+
+	font-size: 0.8em;
+
+}
